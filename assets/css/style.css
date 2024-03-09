@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box; /*what does this do*/
+  }
+  
+body {
+    font-family: Arial;
+    background-color: #343639;
+}
+  
+  /*display: flex; will make each item inside the container into a flexbox*/
+.main-header {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h1 {
+    color: fuchsia;
+}
+
+h2 {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+  
+.snippet {
+    width: 300px;
+    padding: 10px;
+    border: dashed white;
+    border-width: 1px; 
+    margin: 60px 10px;
+}
+
+/*
+.snippet {
+    display: inline-block; width: 300px;
+    position: relative;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px; 
+    margin: 60px 10px;
+}
+*/
+
+/*
+.title {
+    display: flex;
+    position: absolute;
+    bottom: 200px;
+    left: 40px;
+    border: solid aqua;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 70%;
+    padding: 10px
+}
+*/
+
+.title {
+    position: relative;
+    margin-top: -20px;
+    border: solid white;
+    color: fuchsia;
+    background-color: #343639;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+pre {
+    text-align: left;
+    white-space: pre-line;
+    color: white;
+    background-color: fuchsia;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+p {
+    padding: 20px 0 0 0;
+    color: fuchsia;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body{
+    background-color: #3f3e40;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+
+header {
+    border: solid aqua;
+    text-align: center;
+    margin: 0 150px  
+}
+
+
+h1 {
+    text-align: center;
+    color: fuchsia;    
+}
+
+
+header p {
+    text-align: center;
+    color: white;
+}
+
+main {
+    display: flex; 
+    flex-direction: row; 
+    display: wap;
+}
+
+
+.card {
+
+}
+
+*/
+
+
+/*
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+h2 {
+    border: solid aqua;
+    color: fuchsia;
+}
+
+
+
+h3 {
+    border: solid aqua;
+    color: fuchsia;
+}
+
+
+.snippet {
+    border: dashed white;
+    margin: 10px;
+  }
+
+.title {
+    display: inline-block;
+    background-color: #3f3e40;
+    border: solid aqua;
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+    padding: 0px 60px;
+    border-radius: 10px;
+}
+
+.content {
+    border: solid aqua;
+    margin: -30px 5px 5px 5px;
+    padding: 50px 0px;
+}
+
+
+p {
+    display: flex;
+    border: solid aqua;
+    margin: 10px;
+}
+
+*/
+footer {
+    text-align: center;
+    color: fuchsia;
+}
+
+
+
+
+  
