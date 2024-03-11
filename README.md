@@ -18,8 +18,4 @@ This space can be used as a study guide for the course. It contains a collection
 
 
 ## Website
-
-
-
-## Screenshot 
-
+https://alarrabee.github.io/css-snippet-cheat-sheet/
